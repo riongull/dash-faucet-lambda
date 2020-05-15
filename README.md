@@ -2,13 +2,15 @@
 
 ### Usage
 
-##### From the GUI
+#### From the GUI
 
-Visit <https://csb-k2nzi.netlify.app/>, enter your evonet address in the field, and click "Request funds".
+* visit <https://csb-k2nzi.netlify.app/>
+* enter your evonet address in the field
+* click "Request funds"
 
-##### In your app
+#### In your app
 
-Send a GET request to <https://qetrgbsx30.execute-api.us-west-1.amazonaws.com/stage/?dashAddress=yiZhVxNJxgGwbvBS6DDze6gE7v6CrLQMWB>
+* send a GET request to `https://qetrgbsx30.execute-api.us-west-1.amazonaws.com/stage/?dashAddress=${yourAddress}`
 
 ### Notes
 
