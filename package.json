@@ -1,0 +1,20 @@
+{
+  "name": "faucet",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/node": "^10.17.21",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^2.3.0",
+    "@pulumi/awsx": "^0.20.0",
+    "@pulumi/pulumi": "^2.1.0",
+    "dash": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "ts-node /.testing/local.ts",
+    "deploy": "pulumi up --yes",
+    "postinstall": "npm rebuild grpc --target_arch=x64 --target_platform=linux --target_libc=glibc"
+  }
+}

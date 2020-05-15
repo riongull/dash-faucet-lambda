@@ -1,0 +1,3 @@
+name: faucet
+runtime: nodejs
+description: Evonet faucet for Dash Platform clients
